@@ -12,6 +12,9 @@
 		81917F991FD1AD3F00D64BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81917F971FD1AD3F00D64BE7 /* Main.storyboard */; };
 		81917F9B1FD1AD3F00D64BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81917F9A1FD1AD3F00D64BE7 /* Assets.xcassets */; };
 		81917F9E1FD1AD3F00D64BE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81917F9C1FD1AD3F00D64BE7 /* LaunchScreen.storyboard */; };
+		81917FA61FD1AEE200D64BE7 /* NASAObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FA51FD1AEE200D64BE7 /* NASAObject.swift */; };
+		81917FA81FD1C2D300D64BE7 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FA71FD1C2D200D64BE7 /* NetworkHelper.swift */; };
+		81917FAA1FD1C7F200D64BE7 /* NASAObjectAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81917FA91FD1C7F200D64BE7 /* NASAObjectAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		81917F9A1FD1AD3F00D64BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81917F9D1FD1AD3F00D64BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81917F9F1FD1AD3F00D64BE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81917FA51FD1AEE200D64BE7 /* NASAObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAObject.swift; sourceTree = "<group>"; };
+		81917FA71FD1C2D200D64BE7 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		81917FA91FD1C7F200D64BE7 /* NASAObjectAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASAObjectAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				81917F931FD1AD3F00D64BE7 /* AppDelegate.swift */,
 				81917F951FD1AD3F00D64BE7 /* ViewController.swift */,
 				81917F971FD1AD3F00D64BE7 /* Main.storyboard */,
+				81917FA71FD1C2D200D64BE7 /* NetworkHelper.swift */,
+				81917FA91FD1C7F200D64BE7 /* NASAObjectAPIClient.swift */,
+				81917FA51FD1AEE200D64BE7 /* NASAObject.swift */,
 				81917F9A1FD1AD3F00D64BE7 /* Assets.xcassets */,
 				81917F9C1FD1AD3F00D64BE7 /* LaunchScreen.storyboard */,
 				81917F9F1FD1AD3F00D64BE7 /* Info.plist */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81917FA81FD1C2D300D64BE7 /* NetworkHelper.swift in Sources */,
 				81917F961FD1AD3F00D64BE7 /* ViewController.swift in Sources */,
+				81917FA61FD1AEE200D64BE7 /* NASAObject.swift in Sources */,
+				81917FAA1FD1C7F200D64BE7 /* NASAObjectAPIClient.swift in Sources */,
 				81917F941FD1AD3F00D64BE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
